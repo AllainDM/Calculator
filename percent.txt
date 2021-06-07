@@ -1,0 +1,38 @@
+В цикле for в функции sum, которая преобразует строку
+        //  Проценты, имеют слишком много ошибок. Умножение. Деление. И работа с несколькими числами до знака процентов. + Не могу настроить тесты
+
+        // if (!isNaN(arrString[i])) {
+        //     number += arrString[i];
+        //     console.log(`Число: ${number}`);
+        //     // console.log(`тут число: ${arrString[i]}`)
+        // }
+        // if (isNaN(arrString[i])) {
+        //     lastLastNumber = lastNumber;
+        //     lastNumber = number;
+        //     number = '';
+        //     console.log(`Самое последнее число: ${lastLastNumber}`);
+        //     console.log(`Последнее число: ${lastNumber}`);
+        // }
+        // if (arrString[i] == '%') {
+        //     arrString[i - lastNumber.length] = `(${arrString[i - lastNumber.length]}`
+        //     delete arrString[i];
+        //     for (n = i + 1; n <= arrString.length; n++) {
+        //         if (isNaN(arrString[n])) {
+        //             console.log(`index: ${n}`);
+        //             if (arrString[n] == undefined) {
+        //                 arrString[n] = `*${lastLastNumber}/100)`;
+        //             } else {
+        //                 arrString[n] = `*${lastLastNumber}/100)` + arrString[n];
+        //             }
+        //             console.log(n);
+        //             break;
+        //         }
+        //     }
+        // } 
+
+
+// Последнее введенное число пользователем
+let num = true;
+let number = '';  
+let lastNumber = 1; 
+let lastLastNumber = 1;

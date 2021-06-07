@@ -14,17 +14,33 @@
     margin-left: 14px;
     border-radius: 5px;
     font-size: 30px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 
     line-height: 30px;
     text-align: center;
 }
 
+#ely {
+    overflow-y: scroll;
+    background-color: #dfdbdb;
+    width: 294px;
+    height: 100px;
+}
+  
+#elx {
+    overflow-x: scroll;
+    background-color: #dfdbdb;
+    width: 294px;
+    height: 70px;
+    text-align: left;
+}
 
 .logs {
     width: 280px;
     height: 100px;
 
+    margin-top: 10px;
+    margin-left: 14px;
 }
 
 .all-buttons {
@@ -54,4 +70,8 @@
     width: 96px;
     background-color: green;
 
+}
+
+.dev {
+    font-size: 10px;
 }
